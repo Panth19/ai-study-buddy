@@ -1,6 +1,6 @@
 # AI Study Buddy - RAG-Powered Study Assistant
 
-> **Built for: German AI Internship Applications | BTU Cottbus - AI Master's Student**
+
 
 ## 🎯 Problem Statement
 
@@ -16,16 +16,16 @@ As an AI Master's student at BTU Cottbus, I face the challenge of managing and q
 
 ## 🛠️ Tech Stack (Exactly What German Companies Ask For)
 
-| Technology | Why Used | Companies Asking For It |
+| Technology 
 |---|---|---|
-| **React + TypeScript** | Modern frontend framework | BMW, Munich Re, Siemens |
-| **Tailwind CSS** | Utility-first styling | Asked in most full-stack roles |
-| **HuggingFace Transformers** | Open-source embedding models | BMW, Siemens, Munich Re |
-| **RAG Architecture** | Retrieval-Augmented Generation | **#1 most requested** by BMW, Munich Re |
-| **Vector Embeddings (768d)** | Semantic search via cosine similarity | Core RAG technique |
-| **Document Chunking** | Smart text splitting with overlap | Production RAG skill |
-| **ONNX Runtime** | Browser-optimized ML inference | Edge AI deployment skill |
-| **Git** | Version control | Every single job posting |
+| **React + TypeScript** | Modern frontend framework |
+| **Tailwind CSS** | Utility-first styling | 
+| **HuggingFace Transformers** | Open-source embedding models |
+| **RAG Architecture** | Retrieval-Augmented Generation |
+| **Vector Embeddings (768d)** | Semantic search via cosine similarity |
+| **Document Chunking** | Smart text splitting with overlap | 
+| **ONNX Runtime** | Browser-optimized ML inference | 
+| **Git** | Version control | 
 
 ## 🔧 Architecture
 
@@ -53,23 +53,6 @@ The app is a single HTML file (thanks to Vite singlefile plugin) that can be dep
 - Netlify
 - Any static file host
 
-## 📋 How German Companies Benefit from This
-
-This project directly demonstrates skills listed in German AI internship descriptions:
-
-**From BMW Group Internship:**
-> "Experience with Generative AI Frameworks (e.g. langchain, langgraph, llamaindex)"
-> "Knowledge retrieval and search strategies"
-> "Hands-on experience with LLM open source frameworks"
-
-**From Munich Re AI Internship:**
-> "RAG techniques, prompt engineering and orchestration"
-> "Vector databases and embedding models"
-> "Python, Git, DevOps best-practices"
-
-**From Siemens AI Internship:**
-> "AI/ML libraries (e.g., PyTorch, HuggingFace)"
-> "Building AI applications and pipelines"
 
 ## 🏗️ Project Structure
 
@@ -104,7 +87,7 @@ src/
 - **Runtime**: ONNX-optimized for browser deployment
 - **Bundle Size**: ~1MB (single HTML file)
 
-## 🔄 Future Improvements (For Internship)
+## 🔄 Future Improvements
 
 1. Integrate actual LangChain/LlamaIndex instead of custom implementation
 2. Add PDF parsing with pdf.js
@@ -114,4 +97,4 @@ src/
 
 ---
 
-**Built by [Your Name]** | BTU Cottbus - AI Master's | Actively seeking Gen AI Internship in Germany
+**Built by Panth Patel** | BTU Cottbus - AI Master's | Actively seeking Gen AI Internship in Germany
