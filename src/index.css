@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Custom animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.1); }
+  50% { box-shadow: 0 0 30px rgba(139, 92, 246, 0.2); }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Smooth transitions */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Message animation */
+.message-enter {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Focus styles */
+textarea:focus {
+  outline: none;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-violet-400 to-indigo-300 bg-clip-text text-transparent;
+}
